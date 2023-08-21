@@ -1,0 +1,79 @@
+.HomeContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  border: solid 1px #13418b;
+  background-size: cover;
+}
+@media (min-width: 600px) {
+  .HomeContainer {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+    border: solid 1px #13418b;
+  }
+}
+.loader12 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60%;
+}
+@media (min-width: 600px) {
+  .loader12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20%;
+  }
+}
+.ContainerForLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+@media (min-width: 600px) {
+  .ContainerForLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.logo {
+  height: 50px;
+  width: 40px;
+  margin-right: 02px;
+}
+@media (min-width: 600px) {
+  .logo {
+    height: 50px;
+    width: 40px;
+    margin-right: 10px;
+  }
+}
+.dashboard {
+  font-family: 'bree serif';
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  margin: 10px;
+}
+
+@media (min-width: 600px) {
+  .dashboard {
+    font-family: 'bree serif';
+    font-size: 34px;
+    font-weight: 600;
+    color: white;
+  }
+}
+.unOrdered {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+@media (min-width: 600px) {
+  .unOrdered {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,13 @@
+.pageNotFound {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.NotFoundHeading {
+  color: white;
+  font-family: 'bree serif';
+  font-size: 30px;
+  font-weight: 600;
+}

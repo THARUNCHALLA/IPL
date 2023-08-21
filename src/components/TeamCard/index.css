@@ -1,0 +1,39 @@
+.TeamContainer {
+  list-style-type: none;
+  background-color: #ffffff33;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+@media (min-width: 600px) {
+  .TeamContainer {
+    list-style-type: none;
+    background-color: #ffffff33;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+}
+.TeamImage {
+  height: 90px;
+  width: 90px;
+  margin-right: 20px;
+}
+@media (min-width: 600px) {
+  .TeamImage {
+    height: 140px;
+    width: 140px;
+    margin-right: 20px;
+  }
+}
+.TeamHead {
+  font-family: 'bree serif';
+  font-size: 20px;
+  color: white;
+}

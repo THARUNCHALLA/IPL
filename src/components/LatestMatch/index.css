@@ -1,0 +1,139 @@
+.lastMatchContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+}
+@media (min-width: 600px) {
+  .lastMatchContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+  }
+}
+.bothContainer {
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 600px) {
+  .bothContainer {
+    display: flex;
+  }
+}
+.competingTeamHead {
+  color: white;
+  font-family: 'bree serif';
+  font-size: 12px;
+}
+@media (min-width: 600px) {
+  .competingTeamHead {
+    color: white;
+    font-family: 'bree serif';
+    font-size: 22px;
+  }
+}
+.date {
+  color: white;
+  font-family: 'bree serif';
+  font-size: 12px;
+}
+@media (min-width: 600px) {
+  .date {
+    color: white;
+    font-family: 'bree serif';
+    font-size: 18px;
+  }
+}
+.venue {
+  color: white;
+  font-family: 'bree serif';
+  font-size: 10px;
+}
+@media (min-width: 600px) {
+  .venue {
+    color: white;
+    font-family: 'bree serif';
+    font-size: 14px;
+  }
+}
+.result {
+  color: white;
+  font-family: 'bree serif';
+  font-size: 10px;
+}
+@media (min-width: 600px) {
+  .result {
+    color: white;
+    font-family: 'bree serif';
+    font-size: 14px;
+  }
+}
+.competingTeamLogo {
+  height: 200px;
+  width: 150px;
+  margin-right: 40px;
+}
+@media (min-width: 600px) {
+  .competingTeamLogo {
+    height: 300px;
+    width: 230px;
+    margin-right: 40px;
+  }
+}
+.Innings {
+  font-family: 'bree serif';
+  font-size: 12px;
+  color: white;
+}
+
+@media (min-width: 600px) {
+  .Innings {
+    font-family: 'bree serif';
+    font-size: 18px;
+    color: white;
+  }
+}
+.inning {
+  font-family: 'bree serif';
+  font-size: 10px;
+  color: white;
+}
+@media (min-width: 600px) {
+  .inning {
+    font-family: 'bree serif';
+    font-size: 14px;
+    color: white;
+  }
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-right: 0px;
+}
+@media (min-width: 600px) {
+  .first {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 40px;
+  }
+}
+@media (min-width: 600px) {
+  .tharun {
+    display: flex;
+    flex-direction: column;
+  }
+}
+hr {
+  width: 100%;
+}
+@media (min-width: 600px) {
+  hr {
+    width: 0%;
+  }
+}
